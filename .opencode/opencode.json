@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "frontend": {
+      "model": "openrouter/openrouter/free"
+    },
+    "backend": {
+      "model": "openrouter/openrouter/free"
+    }
+  }
+}
