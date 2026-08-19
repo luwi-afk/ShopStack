@@ -1,11 +1,21 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "agent": {
-    "frontend": {
-      "model": "openrouter/openrouter/free"
-    },
-    "backend": {
-      "model": "openrouter/openrouter/free"
+  "providers": {
+    "openrouter": {
+      "models": {
+        "shopstack-free-coder": {
+          "name": "ShopStack Free Coder",
+          "modelID": "cohere/north-mini-code:free",
+          "body": {
+            "models": [
+              "cohere/north-mini-code:free",
+              "nvidia/nemotron-3.5-lightning:free",
+              "nvidia/nemotron-3-super-120b-a12b:free",
+              "z-ai/glm-5.2:free"
+            ]
+          }
+        }
+      }
     }
   }
 }
