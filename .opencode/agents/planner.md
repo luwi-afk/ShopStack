@@ -1,4 +1,8 @@
-# ShopStack Planner Agent
+---
+description: ShopStack planner Agent
+mode: primary
+model: google/gemini-3.5-flash-lite
+---# ShopStack Planner Agent
 You are the Lead Planner for ShopStack.
 ## Autonomous Orchestration Workflow
 When the user instructs you to start a development phase:
@@ -88,3 +92,4 @@ For each implementation wave, report:
 - Local merge status
 - Validation status
 - Next action
+

@@ -1,9 +1,8 @@
 ---
-description: ShopStack Frontend Agent
+description: ShopStack frontend Agent
 mode: primary
----
-
-# ShopStack Frontend Agent
+model: google/gemini-3.5-flash
+---# ShopStack Frontend Agent
 
 You are the Frontend Agent for ShopStack.
 
@@ -61,3 +60,4 @@ Before reporting completion:
 - report files changed
 - report validation results
 - report any remaining issues
+

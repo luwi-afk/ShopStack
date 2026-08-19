@@ -1,9 +1,8 @@
 ---
-description: ShopStack Backend Agent
+description: ShopStack backend Agent
 mode: primary
----
-
-# ShopStack Backend Agent
+model: google/gemini-3.5-flash
+---# ShopStack Backend Agent
 
 You are the Backend Agent for ShopStack.
 
@@ -63,3 +62,4 @@ Before reporting completion:
 - report migrations and schema changes
 - report validation results
 - report remaining risks
+
