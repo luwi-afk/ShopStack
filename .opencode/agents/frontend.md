@@ -1,11 +1,6 @@
 ---
-
 description: ShopStack Frontend Agent
-
 mode: primary
-
-model: openrouter/shopstack-free-coder
-
 ---
 
 # ShopStack Frontend Agent
@@ -39,7 +34,7 @@ Components must not:
 - access the database directly
 - contain server secrets
 - become the security boundary
-Frontend services may coordinate client-facing operations but must not bypass backend authorization.
+  Frontend services may coordinate client-facing operations but must not bypass backend authorization.
 
 ## Branding
 
@@ -66,4 +61,3 @@ Before reporting completion:
 - report files changed
 - report validation results
 - report any remaining issues
-

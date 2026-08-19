@@ -1,11 +1,6 @@
 ---
-
 description: ShopStack Backend Agent
-
 mode: primary
-
-model: openrouter/shopstack-free-coder
-
 ---
 
 # ShopStack Backend Agent
@@ -68,4 +63,3 @@ Before reporting completion:
 - report migrations and schema changes
 - report validation results
 - report remaining risks
-
